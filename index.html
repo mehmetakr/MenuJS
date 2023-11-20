@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MENÜJS</title>
+    <!--Boostrap Css CDN-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.2/css/bootstrap.min.css" />
+
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+
+    <div class="p-2">
+
+
+        <h1 class="text-center">Menümüz</h1>
+
+        <!-- Menü filtre -->
+
+
+        <div class="d-flex justify-content-center gap-3"> 
+            <div class="btn btn-outline-dark filter-btn" data-id="all">Hepsi</div>
+            <div class="btn btn-outline-secondary filter-btn" data-id="breakfast">Kahvalti</div>
+            <div class="btn btn-outline-success filter-btn" data-id="lunch">Öğle Yemeği</div>
+            <div class="btn btn-outline-danger filter-btn" data-id="shakes">İçecekler</div>
+        </div>
+        <!-- Menü filtre -->
+
+
+
+        <div class="row row-cols-1 row-cols-md-2 justify-content-center my-5 gap-3" id="menucontainer">
+ 
+
+
+          
+
+        </div>
+
+    </div>
+
+    <script type="module" src="main.js"></script>
+</body>
+
+</html>
